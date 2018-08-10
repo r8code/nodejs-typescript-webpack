@@ -22,10 +22,12 @@
     "cross-env": "^5.2.0",
     "nodemon": "^1.18.3",
     "nodemon-webpack-plugin": "^4.0.3",
+    "shelljs": "^0.8.2",
     "ts-loader": "^4.4.2",
     "ts-node": "^7.0.0",
     "tslint": "^5.11.0",
     "typescript": "^3.0.1",
+    "uglifyjs-webpack-plugin": "^1.2.7",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
     "webpack-merge": "^4.1.4"

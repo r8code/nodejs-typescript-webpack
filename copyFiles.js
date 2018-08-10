@@ -5,4 +5,4 @@ var shell = require('shelljs');
 
 shell.cp('package.json', 'dist/package.json');
 shell.cp('-R', 'config/', 'dist/');
-shell.cp(isProd ? 'pm2/processes.prod.json' : 'pm2/processes.dev.json', 'dist/processes.json');
+// shell.cp(isProd ? 'pm2/processes.prod.json' : 'pm2/processes.dev.json', 'dist/processes.json');
